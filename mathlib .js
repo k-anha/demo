@@ -1,4 +1,5 @@
-var Vineet_MathLib = {
+{
+    return Vineet_MathLib = {
     //Library for simpler mathematics calculations
     version: "1.0.0",
     PI: 3.14159265359,
@@ -43,4 +44,4 @@ var Vineet_MathLib = {
         }
         return dividend % divisor;
     }
-};
+};}

@@ -38,9 +38,19 @@ var Vineet_MathLib = {
             return console.error("Dividend cannot be empty");
         }else{
             if (typeof(divisor)=='undefined') {
-                return console.error("Dividend cannot be empty");
+                return console.error("Divisor cannot be empty");
             }
         }
         return dividend % divisor;
+    },
+    power:(base,power) => {
+        if (power==0) {
+            return 1
+        };
+        let a=1;
+        for (let i = 0; i < power; i++) {
+            a=base*a
+        }
+        return a;
     }
 };
